@@ -1,7 +1,7 @@
 import os
+import streamlit as st
 import av
 import threading
-import streamlit as st
 from streamlit_webrtc import VideoHTMLAttributes, webrtc_streamer
 from audio_handling import AudioFrameHandler
 from drowsy_detection import VideoFrameHandler
